@@ -16,11 +16,13 @@
 
 package com.google.common.jimfs;
 
-import com.google.common.base.Ascii;
-import com.google.common.base.Function;
-import com.ibm.icu.lang.UCharacter;
 import java.text.Normalizer;
 import java.util.regex.Pattern;
+
+import org.graalvm.shadowed.com.ibm.icu.lang.UCharacter;
+
+import com.google.common.base.Ascii;
+import com.google.common.base.Function;
 
 /**
  * Normalizations that can be applied to names in paths. Includes Unicode normalizations and

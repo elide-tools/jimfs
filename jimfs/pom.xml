@@ -44,7 +44,7 @@
 
     <!-- Optional runtime dependencies -->
     <dependency>
-      <groupId>com.ibm.icu</groupId>
+      <groupId>org.graalvm.shadowed</groupId>
       <artifactId>icu4j</artifactId>
       <optional>true</optional>
     </dependency>
